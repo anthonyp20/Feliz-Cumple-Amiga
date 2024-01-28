@@ -64,4 +64,53 @@ body {
     .container {
         padding: 15px;
     }
+
+    .backgr {
+        background-color: #35014e;
+        color: #fff;
+    }
+    
+    
+    .color {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        transition: transform 0.3s ease-out;
+    }
+    .color:hover{
+    
+        transform: scale(1.1);
+    }
+    
+    .card-body {
+        color: #5a2d6d;
+        text-align: center;
+    }
+    
+    .card-text {
+        line-height: 1.5;
+    }
+    
+    .txt{
+        color: #fff;
+        text-align: center;
+    }
+    .fech{
+        color: #fff;
+        text-align: center;
+    }
+    /* Zoom in on hover effect */
+    .zoom-image {
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .zoom-image:hover {
+        transform: scale(1.1);
+    }
+    
+    /* Style for modal */
+    .modal-content {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
